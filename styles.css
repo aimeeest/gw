@@ -90,7 +90,6 @@
     width: fit-content; 
   }
   
-
   .trendings {
     grid-area: trendings;
     display: flex;
