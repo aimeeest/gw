@@ -16,13 +16,13 @@
   .container {
     display: grid;
     width: 100%;
-    max-width: 1280px;
+    max-width: 1380px;
     margin-left: auto;
     margin-right: auto;
     grid-template-areas: 
         "header header header"
         "banner banner aside"
-        "popular popular popular"
+        "popular popular aside"
         "trendings trendings trendings";
   }
 
@@ -33,7 +33,7 @@
   }
   
   header img {
-    width: 20%;
+    width: 15%;
   }
 
   nav {
@@ -80,14 +80,16 @@
     margin-top: 2rem;
   }
 
-  .popular a {
-    display: block;
+  .popular a.read-more {
+    display: block; 
     padding: 0.5rem;
     margin-top: 1rem;
     color: white;
     background-color: #752d75;
     text-transform: uppercase;
+    width: fit-content; 
   }
+  
 
   .trendings {
     grid-area: trendings;
