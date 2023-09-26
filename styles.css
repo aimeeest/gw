@@ -22,6 +22,7 @@
     grid-template-areas: 
         "header header header"
         "banner banner aside"
+        "popular popular popular"
         "trendings trendings trendings";
   }
 
@@ -40,13 +41,13 @@
     align-items: right;
   }
 
-  nav ul {
+  ul {
     display: flex;
     gap: 1rem;
     justify-content: flex-end; 
   }
 
-  nav li {
+  li {
     list-style: none;
   }
 
