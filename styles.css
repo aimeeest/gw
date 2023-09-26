@@ -80,14 +80,15 @@
     margin-top: 2rem;
   }
 
-  .popular a.read-more {
+  .popular a {
     display: block; 
+    width: fit-content; 
     padding: 0.5rem;
     margin-top: 1rem;
     color: white;
     background-color: #752d75;
     text-transform: uppercase;
-    width: fit-content; 
+    
   }
   
   .trendings {
